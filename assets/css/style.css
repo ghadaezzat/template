@@ -1,0 +1,299 @@
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.dropdown-menu{
+    background: none;
+    border:none;
+}
+li > .nav-item {
+    font-weight: bolder;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+    color:white;
+    padding-right:10px;
+    text-decoration: none;
+}
+.nav.navbar-nav.navbar-right li .nav-item:hover {
+    color: lightgray;
+    background-color: initial;
+
+}
+.first_part  .brand {
+    display: inline-block;
+    letter-spacing: .05em;
+    color: white;
+    height: 0;
+    z-index:20;
+    font-family:'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-shadow: none;
+    height: 6.4rem;
+}
+.brand img{
+    float: left;
+    margin-right: 15px;
+    width: 70px;
+}
+.brand p{padding-top:5px;}
+ .nav-links > a.nav-item{
+     background-color: transparent;
+ }
+ div.first_part{
+   background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/v.jpg) center right; 
+   background-size: cover;
+   height:600px;
+   z-index:0;
+   text-align: center;
+ }
+ a{
+     text-decoration: none;
+ }
+
+ .section-one {
+        display: block;
+        color:white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        vertical-align: baseline;
+        text-align: center;
+ }
+
+ .press-quote{
+     margin-top:20%;
+     margin-right: 28%;
+     margin-left: 28%;
+    font-family: 'Open Sans ', sans-serif;
+    color: #6a6a6a;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+ }
+
+ .intro-header{
+    padding-top: 4%;
+    color:#6a6a6a;
+    opacity:0.8;
+    padding-bottom:4%;
+ }
+ .intro-header p{
+     line-height: 30px;
+     font-size: 18px;
+ }
+ .fancy-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    border-bottom: 1px solid #6a6a6a;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(106, 106, 106);
+    letter-spacing: .1em;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 27px;
+     padding-top: 65px;
+    background: url(../images/icon-circle-flag-faec3c8fd9542d39de8fdaee9446950d.png) center top no-repeat;
+}
+
+   
+.large-styled-text{
+    font-size: 42px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navbar-default{
+    background: none;
+    border:none;
+    padding-top: 20px;
+}
+.dropdown .nav-item:hover{
+    border:0;
+    color:white;
+background: none;
+}
+.dropdown-menu > li  > a:hover{
+    color:lightgray;
+    background: transparent !important;
+}
+.brand:hover{
+    opacity: 0.9;
+    text-decoration: none;
+    color:white;
+}
+.arrow{
+    position: relative;
+    padding-left:50%;
+    background:white;
+    bottom:0;
+}
+#i_1:hover{
+    opacity: 0.85;
+}
+.section-one{
+    padding-top: 4%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.section-one .container span.top{
+    font-size: 7vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+.section-one .container span.bottom{
+    font-size: 8vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:100;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+
+
+}
+.btn-container{
+    border-radius: 4px;
+    background-color: #E78970;
+    padding: 4px;
+    margin-top:10%;
+    margin-bottom:10%;
+    text-align: center;
+    border: 1px solid #ffcc66
+}
+.btn-container a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.section-one .container{
+    position: relative;
+}
+.btn-container:hover {
+    opacity:0.9;
+}
+.btn-container a:hover{
+    color:white;
+}
+.hero-message{
+    font-style: italic;
+    font-size:20;
+}
+.section-two {
+    background-color: #F9F8F7;
+    text-align: center;
+    padding-top: 4%;
+}
+.fifth_part .container{
+    text-align: center;
+}
+img.logo-invisible{
+        filter: grayscale(100%);
+        opacity:0.6;
+        padding:30px;
+
+}
+ img.logo-invisible:hover{
+ filter:none;
+ opacity:1;
+}
+.section-six p {
+    font-size: 60px;
+    color: #373633;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+.section-six .container{
+    padding: 70px 50px 60px;
+    background-color: #F9F8F7;
+}
+footer { background-color:#161817; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#373633;}
+ .copyright p { text-align:left; color:#666; padding:10px 0; margin-bottom:0px;}
+ .copyright p a{color:#D18160;}
+ .copyright p.ss{
+     position: relative;
+    text-align:right;
+    color:white; 
+ }
+ 
+ .logofooter .brand {
+     font-size: 16px;
+     font-style: italic;
+     font-family:'Open Sans Condensed', sans-serif;
+     color: white;
+
+ }
+ .copy{
+     padding:40px;
+     background-color: #F9F8F7;
+}
+.fourth_part{
+    margin-top: 60px;
+}
+.fa{
+color: white;
+text-align: right;
+}
+
+.paddingtop-bottom ul li{
+    display:inline;
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right:12px;
+}
+.paddingtop-bottom ul li a{
+    color:white;
+    font-weight: bold;
+}
+.email {
+    background-color: black;
+    color:lightgray;
+    border:1px solid black;
+    font-size:20px;
+    text-decoration: underline;
+    border-bottom: 1px solid white;
+    width:190px;
+}
+#mc_embed_signup{
+    display:inline;
+}
